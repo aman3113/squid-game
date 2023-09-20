@@ -1,0 +1,68 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+input,
+select {
+  padding: 5px;
+  cursor: pointer;
+}
+
+button {
+  padding: 5px;
+  margin: 20px 0;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: grey;
+}
+
+/* Add your CSS styling here, including the box animation for changing colors. */
+.box {
+  width: 150px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin: 0 auto;
+}
+
+.box.green {
+  background-color: green;
+  color: white;
+}
+
+.box.red {
+  background-color: red;
+  color: white;
+}
+
+label {
+  text-align: left;
+}
+
+.pass {
+  color: green;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.fail {
+  color: red;
+  font-size: 24px;
+  font-weight: 600;
+}
