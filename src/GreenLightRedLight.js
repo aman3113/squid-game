@@ -108,10 +108,10 @@ function GreenLightRedLight({ name, difficulty }) {
           <p>Your Time: {timer} seconds</p>
           <button onClick={restartGame}>Restart Game</button>
         </div>
+      ) : gameStarted ? (
+        <button onClick={() => setGameStarted(false)}>Stop Game </button>
       ) : (
-        <button onClick={gameStarted ? endGame : startGame}>
-          {gameStarted ? "Stop Game" : "Start Game"}
-        </button>
+        <button onClick={() => setGameStarted(true)}>Start Game </button>
       )}
     </div>
   );
