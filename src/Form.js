@@ -18,7 +18,7 @@ export default function Form({
 
   return (
     <div>
-      <h1>User Registration</h1>
+      <h2>User Registration</h2>
       <form onSubmit={handleStartGame}>
         <label>Name:</label>
         <input

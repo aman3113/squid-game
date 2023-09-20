@@ -83,10 +83,10 @@ function GreenLightRedLight({ name, difficulty }) {
 
   return (
     <div>
-      <h1>Welcome, {name}!</h1>
-      <h2>Difficulty: {difficulty}</h2>
-      <h3>Score: {score}</h3>
-      <h3>Time: {timer} seconds</h3>
+      <h2>Welcome, {name}!</h2>
+      <h3>Difficulty: {difficulty}</h3>
+      <h4>Score: {score}</h4>
+      <h4>Time: {timer} seconds</h4>
       <div
         className={`box ${message === "Green" ? "green" : "red"}`}
         onClick={handleClick}
