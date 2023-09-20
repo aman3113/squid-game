@@ -27,6 +27,11 @@ button:hover {
   background-color: grey;
 }
 
+ol > li {
+  text-align: left;
+  padding: 5px;
+}
+
 /* Add your CSS styling here, including the box animation for changing colors. */
 .box {
   width: 150px;

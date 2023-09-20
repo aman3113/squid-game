@@ -55,6 +55,25 @@ export default function Form({
         </select>
         <button>Start Game</button>
       </form>
+      <h2>Game Rules</h2>
+      <ol>
+        <li>There are three categories for the game easy, medium and hard.</li>
+        <li>
+          When user starts the game the box will change color between red and
+          green on random intervals between 1 to 2 sec.
+        </li>
+        <li>
+          Clicking on green box will increment the score and change box to re.
+        </li>
+        <li>
+          Clicking on red box will finish the game. Otherwise game will be
+          finished in 40 sec.
+        </li>
+        <li>
+          User needs 10 points to win easy level, 15 points for medium and 25
+          points for hard leve.
+        </li>
+      </ol>
     </div>
   );
 }
